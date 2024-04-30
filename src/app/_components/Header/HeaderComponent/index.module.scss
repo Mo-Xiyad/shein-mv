@@ -1,0 +1,21 @@
+
+
+.header {
+  padding: 36px 0;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: calc(var(--base)/2) var(--base) // gaps between elements on the same row
+}
+
+.logo {
+  width: 170px;
+}
+
+.hide{
+  display: none;
+}

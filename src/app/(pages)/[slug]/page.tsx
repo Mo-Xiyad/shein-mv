@@ -65,10 +65,10 @@ export default async function Page({ params: { slug = 'home' } }) {
         <section>
           <Hero {...hero} />
 
-          {/* <Gutter className={classes.home}>
+          <Gutter className={classes.home}>
             <Categories categories={categories} />
-            <Promotion />
-          </Gutter> */}
+            {/* <Promotion /> */}
+          </Gutter>
         </section>
       ) : (
         <>
